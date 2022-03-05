@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx webpack serve --mode=development",
+    "build": "webpack --mode production",
+    "build:dev": "webpack"
   },
   "author": "Hideyuki Matsugi",
   "license": "UNLICENSED",
@@ -17,6 +19,7 @@
     "css-loader": "^6.6.0",
     "html-loader": "^3.1.0",
     "html-webpack-plugin": "^5.5.0",
+    "image-webpack-loader": "^8.1.0",
     "mini-css-extract-plugin": "^2.6.0",
     "node-sass": "^7.0.1",
     "pug-html-loader": "^1.1.5",
