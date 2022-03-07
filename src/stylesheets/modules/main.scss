@@ -1,0 +1,5 @@
+@use "./sub.scss" as akaiyone;
+
+h1 {
+    @include akaiyone.akai();
+}
